@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package co.aoscp.recorder.utils;
+package com.bootleggers.recorder.utils;
 
 import android.app.NotificationManager;
 import android.content.Context;
@@ -23,10 +23,10 @@ import android.net.Uri;
 import android.support.v4.content.FileProvider;
 import android.support.v7.app.AlertDialog;
 
-import co.aoscp.recorder.DialogActivity;
-import co.aoscp.recorder.R;
-import co.aoscp.recorder.screen.ScreencastService;
-import co.aoscp.recorder.sounds.SoundRecorderService;
+import com.bootleggers.recorder.DialogActivity;
+import com.bootleggers.recorder.R;
+import com.bootleggers.recorder.screen.ScreencastService;
+import com.bootleggers.recorder.sounds.SoundRecorderService;
 
 import java.io.File;
 
@@ -36,7 +36,7 @@ public class LastRecordHelper {
     private static final String KEY_LAST_SCREEN = "screen_last_path";
     private static final String KEY_LAST_SOUND_TIME = "sound_last_duration";
     private static final String KEY_LAST_SCREEN_TIME = "screen_last_duration";
-    private static final String FILE_PROVIDER = "co.aoscp.recorder.fileprovider";
+    private static final String FILE_PROVIDER = "com.bootleggers.recorder.fileprovider";
 
     private LastRecordHelper() {
     }

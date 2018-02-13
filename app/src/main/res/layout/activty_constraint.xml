@@ -43,7 +43,7 @@
             android:textColor="@color/white"
             android:textSize="28sp" />
 
-        <co.aoscp.recorder.ui.SoundVisualizer
+        <com.bootleggers.recorder.ui.SoundVisualizer
             android:id="@+id/main_recording_visualizer"
             android:layout_width="match_parent"
             android:layout_height="128dp"

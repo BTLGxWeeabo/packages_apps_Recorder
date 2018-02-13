@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package co.aoscp.recorder.screen;
+package com.bootleggers.recorder.screen;
 
 import android.content.Context;
 import android.hardware.display.DisplayManager;
@@ -27,7 +27,7 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.Surface;
 
-import co.aoscp.recorder.R;
+import com.bootleggers.recorder.R;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 

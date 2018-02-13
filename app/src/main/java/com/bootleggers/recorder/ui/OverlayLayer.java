@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package co.aoscp.recorder.ui;
+package com.bootleggers.recorder.ui;
 
 import android.content.Context;
 import android.graphics.PixelFormat;
@@ -26,7 +26,7 @@ import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
 
-import co.aoscp.recorder.R;
+import com.bootleggers.recorder.R;
 
 public class OverlayLayer extends View {
 

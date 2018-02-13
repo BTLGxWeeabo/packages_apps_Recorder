@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package co.aoscp.recorder.screen;
+package com.bootleggers.recorder.screen;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -24,10 +24,10 @@ import android.content.Intent;
 import android.os.IBinder;
 import android.support.v4.app.NotificationCompat;
 
-import co.aoscp.recorder.R;
-import co.aoscp.recorder.RecorderActivity;
-import co.aoscp.recorder.ui.OverlayLayer;
-import co.aoscp.recorder.utils.Utils;
+import com.bootleggers.recorder.R;
+import com.bootleggers.recorder.RecorderActivity;
+import com.bootleggers.recorder.ui.OverlayLayer;
+import com.bootleggers.recorder.utils.Utils;
 
 public class OverlayService extends Service {
 

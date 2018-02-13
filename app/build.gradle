@@ -4,7 +4,7 @@ android {
     compileSdkVersion 27
     buildToolsVersion "27.0.2"
     defaultConfig {
-        applicationId "co.aoscp.recorder"
+        applicationId "com.bootleggers.recorder"
         minSdkVersion 26
         targetSdkVersion 27
         versionCode 1

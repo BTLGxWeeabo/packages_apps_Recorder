@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package co.aoscp.recorder.ui;
+package com.bootleggers.recorder.ui;
 
 import android.view.View;
 import android.view.animation.Animation;

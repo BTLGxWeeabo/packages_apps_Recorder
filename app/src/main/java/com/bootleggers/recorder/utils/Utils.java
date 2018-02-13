@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package co.aoscp.recorder.utils;
+package com.bootleggers.recorder.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;

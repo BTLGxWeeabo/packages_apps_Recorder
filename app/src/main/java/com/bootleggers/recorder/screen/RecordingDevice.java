@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package co.aoscp.recorder.screen;
+package com.bootleggers.recorder.screen;
 
 import android.content.Context;
 import android.media.AudioFormat;

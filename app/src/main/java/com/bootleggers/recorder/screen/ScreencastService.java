@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package co.aoscp.recorder.screen;
+package com.bootleggers.recorder.screen;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -37,10 +37,10 @@ import android.util.Log;
 import android.view.Display;
 import android.widget.Toast;
 
-import co.aoscp.recorder.R;
-import co.aoscp.recorder.RecorderActivity;
-import co.aoscp.recorder.utils.LastRecordHelper;
-import co.aoscp.recorder.utils.Utils;
+import com.bootleggers.recorder.R;
+import com.bootleggers.recorder.RecorderActivity;
+import com.bootleggers.recorder.utils.LastRecordHelper;
+import com.bootleggers.recorder.utils.Utils;
 
 import java.lang.reflect.Method;
 import java.util.Timer;
@@ -53,13 +53,13 @@ public class ScreencastService extends Service {
 
     public static final String EXTRA_WITHAUDIO = "withaudio";
     public static final String ACTION_START_SCREENCAST =
-            "co.aoscp.recorder.screen.ACTION_START_SCREENCAST";
+            "com.bootleggers.recorder.screen.ACTION_START_SCREENCAST";
     public static final String ACTION_STOP_SCREENCAST =
-            "co.aoscp.recorder.screen.ACTION_STOP_SCREENCAST";
+            "com.bootleggers.recorder.screen.ACTION_STOP_SCREENCAST";
     private static final String ACTION_SCAN =
-            "co.aoscp.recorder.server.display.SCAN";
+            "com.bootleggers.recorder.server.display.SCAN";
     private static final String ACTION_STOP_SCAN =
-            "co.aoscp.recorder.server.display.STOP_SCAN";
+            "com.bootleggers.recorder.server.display.STOP_SCAN";
     static final String SCREENCASTER_NAME = "hidden:screen-recording";
     public static final int NOTIFICATION_ID = 61;
     private static final String LOGTAG = "ScreencastService";

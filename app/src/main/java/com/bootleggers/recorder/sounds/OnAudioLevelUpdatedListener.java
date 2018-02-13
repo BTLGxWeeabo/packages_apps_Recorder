@@ -13,27 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package co.aoscp.recorder.ui;
+package com.bootleggers.recorder.sounds;
 
-import android.annotation.SuppressLint;
-import android.content.Context;
-import android.util.AttributeSet;
-import android.widget.ImageButton;
-
-/**
- * Custom ImageButton implementation to avoid
- * performClick() warnings
- */
-@SuppressLint("AppCompatCustomView")
-class DragView extends ImageButton {
-
-    public DragView(Context context, AttributeSet attrs) {
-        super(context, attrs, 0);
-    }
-
-    @Override
-    public boolean performClick() {
-        super.performClick();
-        return false;
-    }
+public interface OnAudioLevelUpdatedListener {
+    void onAudioLevelUpdated(int value);
 }

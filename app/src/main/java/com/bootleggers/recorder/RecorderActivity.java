@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package co.aoscp.recorder;
+package com.bootleggers.recorder;
 
 import android.Manifest;
 import android.app.ActivityManager;
@@ -46,14 +46,14 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import co.aoscp.recorder.screen.OverlayService;
-import co.aoscp.recorder.screen.ScreencastService;
-import co.aoscp.recorder.sounds.RecorderBinder;
-import co.aoscp.recorder.sounds.SoundRecorderService;
-import co.aoscp.recorder.ui.SoundVisualizer;
-import co.aoscp.recorder.utils.LastRecordHelper;
-import co.aoscp.recorder.utils.OnBoardingHelper;
-import co.aoscp.recorder.utils.Utils;
+import com.bootleggers.recorder.screen.OverlayService;
+import com.bootleggers.recorder.screen.ScreencastService;
+import com.bootleggers.recorder.sounds.RecorderBinder;
+import com.bootleggers.recorder.sounds.SoundRecorderService;
+import com.bootleggers.recorder.ui.SoundVisualizer;
+import com.bootleggers.recorder.utils.LastRecordHelper;
+import com.bootleggers.recorder.utils.OnBoardingHelper;
+import com.bootleggers.recorder.utils.Utils;
 
 import java.util.ArrayList;
 import java.util.List;

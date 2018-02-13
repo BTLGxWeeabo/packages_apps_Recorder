@@ -13,8 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package co.aoscp.recorder.sounds;
+package com.bootleggers.recorder.sounds;
 
-public interface OnAudioLevelUpdatedListener {
-    void onAudioLevelUpdated(int value);
+interface OnTimerUpdatedListener {
+    void onTimerUpdated(int seconds);
 }

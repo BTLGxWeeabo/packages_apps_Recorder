@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package co.aoscp.recorder;
+package com.bootleggers.recorder;
 
 import android.Manifest;
 import android.content.Intent;
@@ -33,8 +33,8 @@ import android.widget.LinearLayout;
 import android.widget.Switch;
 import android.widget.TextView;
 
-import co.aoscp.recorder.utils.LastRecordHelper;
-import co.aoscp.recorder.utils.Utils;
+import com.bootleggers.recorder.utils.LastRecordHelper;
+import com.bootleggers.recorder.utils.Utils;
 
 public class DialogActivity extends AppCompatActivity implements
         SharedPreferences.OnSharedPreferenceChangeListener {

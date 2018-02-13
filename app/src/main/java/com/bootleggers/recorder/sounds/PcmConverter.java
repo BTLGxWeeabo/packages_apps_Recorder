@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package co.aoscp.recorder.sounds;
+package com.bootleggers.recorder.sounds;
 
 import android.util.Log;
 
-import co.aoscp.recorder.utils.Utils;
+import com.bootleggers.recorder.utils.Utils;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-import static co.aoscp.recorder.sounds.SoundRecorderService.EXTENSION;
+import static com.bootleggers.recorder.sounds.SoundRecorderService.EXTENSION;
 
 class PcmConverter {
     static final String WAV_EXTENSION = ".wav";
